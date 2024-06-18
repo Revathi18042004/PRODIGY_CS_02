@@ -26,7 +26,6 @@ def main():
         print(f"Encrypted image saved as '{encrypted_image_jpg_path}'")
 
     elif operation == 'decrypt':
-        # Decrypt the image from the PNG file, then save as JPEG
         encrypted_image_path = "encrypted_img.png"
         decrypted_image = process_image(encrypted_image_path, key)
         decrypted_image_path = f"decrypted_{image_name}"
